@@ -78,7 +78,7 @@ public class PostPutPatchDelete_Stepdef
 	@When("the request is send to the server to delete data")
 	public void the_request_is_send_to_the_server_to_delete_data() 
 	{
-	    dt.request_delete("/users/", "721a");
+	    dt.request_delete("/users/", "7313");
 	}
 
 	@Then("the user data will be deleted and validate reponse {int}")
