@@ -35,7 +35,7 @@ public class DeleteTest
 	}
 	public void validate_delete_response(int status_code)
 	{
-		getRequest("/users/","721a");
+		getRequest("/users/","7313");
 		System.out.println("Get Response: " +response.asString());
 
 		Assert.assertEquals(status_code, response.getStatusCode());
